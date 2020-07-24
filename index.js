@@ -32,10 +32,6 @@ module.exports = (listOfItems) => {
     return String(listOfItems[0]);
   }
 
-  // For two items
-  if (listOfItems.length === 2) {
-    return String(listOfItems[0]) + " and " + String(listOfItems[1]);
-  }
 
   // For the non-trivial case of other real number of items
   let index = 0;
