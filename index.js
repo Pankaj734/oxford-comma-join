@@ -32,7 +32,6 @@ module.exports = (listOfItems) => {
     return String(listOfItems[0]);
   }
 
-
   // For the non-trivial case of other real number of items
   let index = 0;
   let output = "";
